@@ -31,5 +31,5 @@ We'll use transaction.get_connection().in_atomic_block to check:
 2) Whether the signal runs inside the same transaction.
 
 <a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question3.py"> Link to solution code </a></br>
-<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/Output/Question3"> link to output </a>
+<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/Output/Question3"> link to output </a> 
 
