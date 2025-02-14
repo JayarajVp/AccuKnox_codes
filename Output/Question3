@@ -1,0 +1,3 @@
+Signal in transaction: True
+Caller in transaction: True
+Did signal run inside the same transaction? True
