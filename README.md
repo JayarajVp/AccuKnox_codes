@@ -18,6 +18,6 @@ We'll use Python's threading module to compare the thread IDs of:
 1) The main execution thread (which saves a model instance).
 2) The signal handler function.
 
-<a href="">
-
+<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question2.py"> Link to solution code </a>
+<a href=""> link to output </a>
 
