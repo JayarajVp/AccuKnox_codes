@@ -1,0 +1,4 @@
+from signals_app.rectangle import Rectangle // in python shell
+rect = Rectangle(10, 5)
+list(rect)
+[{'length': 10}, {'width': 5}]
