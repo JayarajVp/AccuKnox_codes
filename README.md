@@ -8,3 +8,16 @@ We'll create a simple Django model with a post_save signal. If signals were asyn
 
 <a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question1.py"> Link to solution code</a></br>
 <a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/Output/Question%201"> link to output</a>
+
+### Question 2
+Do django signals run in the same thread as the caller? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
+### soultion
+Django signals run in the same thread as the caller by default. This means that the execution of the main process is blocked until the signal handler completes.
+#### Proof with a Code Snippet
+We'll use Python's threading module to compare the thread IDs of:
+1) The main execution thread (which saves a model instance).
+2) The signal handler function.
+
+<a href="">
+
+
