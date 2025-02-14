@@ -21,3 +21,15 @@ We'll use Python's threading module to compare the thread IDs of:
 <a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question2.py"> Link to solution code </a></br>
 <a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/Output/Question2"> link to output </a>
 
+### Question 3
+By default do django signals run in the same database transaction as the caller? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
+### soultion
+By default, Django signals do not run in the same database transaction as the caller. Signals execute immediately after the database operation, but they are not automatically part of the transaction block. This means that even if the main transaction is rolled back, the signal’s changes may still persist.
+#### Proof with a Code Snippet
+We'll use transaction.get_connection().in_atomic_block to check:
+1) Whether the main transaction is active when saving a model.
+2) Whether the signal runs inside the same transaction.
+
+<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question3.py"> Link to solution code </a></br>
+<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/Output/Question3"> link to output </a>
+
