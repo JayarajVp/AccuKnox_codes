@@ -19,5 +19,5 @@ We'll use Python's threading module to compare the thread IDs of:
 2) The signal handler function.
 
 <a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question2.py"> Link to solution code </a>
-<a href=""> link to output </a>
+<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/Output/Question2"> link to output </a>
 
