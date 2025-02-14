@@ -6,4 +6,5 @@ By default, Django signals are executed synchronously. This means that when a si
 #### Proof with a Code Snippet:
 We'll create a simple Django model with a post_save signal. If signals were asynchronous, the main thread would continue execution without waiting for the signal handler. But since signals are synchronous, execution will pause until the signal handler finishes.
 
-<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question1.py"> Link to solution code</a>
+<a href="https://github.com/JayarajVp/AccuKnox_codes/blob/main/new/signals_app/question1.py"> Link to solution code</a></br>
+<a href=""> link to output</a>
